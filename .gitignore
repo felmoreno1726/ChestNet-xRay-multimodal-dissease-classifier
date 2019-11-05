@@ -1,2 +1,4 @@
+.ipynb_checkpoints/
 data/train
 data/test
+data/compressed_images/
