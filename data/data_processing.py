@@ -2,8 +2,7 @@ import os
 import shutil
 import pandas as pd
 
-#disease_names = ['pneumothorax', 'pneumonia', 'pleuralthickening', 'nofinding', 'nodule', 'mass', 'infiltration', 'fibrosis', 'emphysema', 'effusion', 'edema', 'consolidation', 'cardiomegaly', 'atelectasis']
-disease_names = ['atelectasis']
+disease_names = ['pneumothorax', 'pneumonia', 'pleuralthickening', 'nofinding', 'nodule', 'mass', 'infiltration', 'fibrosis', 'emphysema', 'effusion', 'edema', 'consolidation', 'cardiomegaly', 'atelectasis']
 dataset_divisions = ['train', 'test', 'val']
 images_dir="/storage/images/"
 data_dir="/storage/x-ray-data/data/"
